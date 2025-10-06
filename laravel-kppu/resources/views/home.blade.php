@@ -12,7 +12,7 @@
                     <h1 class="text-4xl font-bold leading-tight md:text-6xl">
                         KPPU Kini Lebih Cepat Tanggapi Laporan Anda
                     </h1>
-                    <a href="#"
+                    <a href="/berita"
                         class="mt-8 inline-block border border-white py-3 px-10 text-lg uppercase tracking-wider transition-colors duration-300 hover:bg-white hover:text-black">
                         Pelajari Transformasi Kami
                     </a>

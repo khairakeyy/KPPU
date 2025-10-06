@@ -41,7 +41,7 @@
                         </div>
                         <h3 class="font-bold text-gray-800 mb-4 h-24">KPPU Kembali Gelar Sidang Perkara Tender Mesin Induk
                             MTU di Dirjen Bea Cukai</h3>
-                        <a href="#"
+                        <a href="detail-berita"
                             class="bg-blue-700 text-white text-sm font-bold py-2 px-4 rounded-md hover:bg-blue-800">Baca
                             Selengkapnya</a>
                     </div>
