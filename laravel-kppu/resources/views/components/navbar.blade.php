@@ -1,4 +1,4 @@
-<header class="bg-white shadow-sm">
+<header x-data="{ mobileMenuOpen: false }" class="bg-white shadow-sm relative">
     <div class="container mx-auto p-4 flex items-center justify-between">
         <a href="/home">
             <img src="{{ asset('images/logokppu.png') }}" alt="Logo KPPU" class="h-12 w-auto">
@@ -102,14 +102,11 @@
                     x-transition:leave-end="opacity-0 transform -translate-y-2"
                     class="absolute z-20 mt-2 w-64 bg-blue-900 text-white rounded-md shadow-lg" style="display: none;">
 
-                    <a href="#"
-                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Peraturan Perundang-undangan</a>
-                    <a href="#"
-                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Peraturan Komisi</a>
-                    <a href="#"
-                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Peraturan Ketua KPPU</a>
-                    <a href="#"
-                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Pedoman</a>
+                    <a href="#"class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Kajian Kebijakan</a>
+                    <a href="#"class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Advokasi</a>
+                    <a href="#"class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Penelitian</a>
+                    <a href="#"class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Indeks Persaingan Usaha</a>
+                    <a href="#"class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">KPPU Mendengar</a>
                 </div>
             </li>
 
@@ -134,13 +131,23 @@
                     class="absolute z-20 mt-2 w-64 bg-blue-900 text-white rounded-md shadow-lg" style="display: none;">
 
                     <a href="#"
-                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Peraturan Perundang-undangan</a>
+                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">KPPU 25</a>
                     <a href="#"
-                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Peraturan Komisi</a>
+                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Jurnal</a>
                     <a href="#"
-                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Peraturan Ketua KPPU</a>
+                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Magang Merdeka</a>
                     <a href="#"
-                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Pedoman</a>
+                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Kumpulan Artikel</a>
+                    <a href="#"
+                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Galeri</a>
+                    <a href="#"
+                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Kompetisi</a>
+                    <a href="#"
+                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Laporan Tahunan</a>
+                    <a href="#"
+                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Referensi</a>
+                    <a href="#"
+                        class="block px-4 py-3 text-sm font-semibold hover:bg-blue-800 border-b border-blue-800">Siaran Pers</a>
                 </div>
             </li>
 
