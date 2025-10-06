@@ -1,6 +1,6 @@
 <header class="bg-white shadow-sm">
     <div class="container mx-auto p-4 flex items-center justify-between">
-        <a href="#">
+        <a href="/home">
             <img src="{{ asset('images/logokppu.png') }}" alt="Logo KPPU" class="h-12 w-auto">
         </a>
 
